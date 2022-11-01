@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Playfair Display', serif;
+}
+header {
+    height: 60px;
+    background-color: rgb(114, 22, 175);
+    padding-top: 10px;
+    margin-bottom: 20px;
+}
+h1 {
+    text-align: center;
+}
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgb(169, 171, 172);
+    width: 90%;
+    margin: auto;
+    padding: 40px 0;
+    border-radius: 15px;
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.5);
+}
+
+div {
+    width: calc(50% - 20px);
+    height: 300px;
+    margin: 10px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center; 
+    border: 1px solid grey;
+    border-radius: 8px;
+    transition: 1s;
+}
+div:hover {
+    transform: scale(1.05);
+}
+.item-1 {
+    background-image: url(../images/1622640.webp);
+    
+}
+.item-2 {
+    background-image: url(../images/7316.jpg);
+   
+}
+.item-3 {
+    background-image: url(../images/7316.jpg);
+}
+ 
+.item-4 {
+    background-image: url(../images/7316.jpg);
+ 
+}
+.item-5 {
+    background-image: url(../images/7316.jpg);
+    
+}
+.item-6 {
+    background-image: url(../images/7316.jpg);
+   
+}
+.item-7 {
+    background-image: url(../images/vladstudio-library-wallpaper-5919cd763df78cf5fa3d7e27.jpg);
+    
+}
+.item-8 {
+    background-image: url(../images/concrete-genie-tablet-wallpaper-03-ps4-us-29jul19.webp);
+ 
+}
